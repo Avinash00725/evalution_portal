@@ -1,0 +1,18 @@
+{
+  "name": "aisummit-evaluation-platform",
+  "version": "1.0.0",
+  "description": "AI Summit Hackathon Evaluation Platform",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "start-backend": "cd backend && npm run dev",
+    "start-frontend": "cd frontend && npm run dev",
+    "setup-admin": "curl -X POST http://localhost:5000/api/auth/setup/initial-admin"
+  },
+  "keywords": ["hackathon", "evaluation", "react", "nodejs", "mongodb"],
+  "author": "AI Summit Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
