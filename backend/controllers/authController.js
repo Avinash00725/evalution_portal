@@ -61,7 +61,7 @@ export const createInitialAdmin = async (req, res) => {
 
     const admin = await Admin.create({
       name: 'Super Admin',
-      email: 'admin@aisummit.com',
+      email: 'admin1@aisummit.com',
       password: 'admin123',
       isSuper: true
     });
