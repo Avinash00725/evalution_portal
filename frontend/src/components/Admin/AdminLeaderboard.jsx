@@ -5,7 +5,7 @@ import Modal from '../Modal';
 import { getEventLabel } from '../../utils/helpers';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
-import letterheadLogo from '../../assets/letterHead.png';
+import letterheadLogo from '../../assets/letterHead.jpeg';
 import aisummitLogo from '../../assets/logo.png';
 
 const AdminLeaderboard = () => {
